@@ -38,14 +38,11 @@
 			border-radius:4px;
 			margin-right: 4px;
 		}
-		.pc-table, .pc-table > div {
-			height: 320px;
-		}
 		.pc-table > div, .mobile-table > div {
 			padding: 16px;
 		}
 		.mobile-table, .mobile-table > div {
-			height: 240px;
+			height: 100%;
 		}
 		.cond {
 			background-image: url(https://pp.userapi.com/c840228/v840228957/ab77/E3qYcq2mHak.jpg);
@@ -62,8 +59,10 @@
 		.number {
 			color: #fff;
 		}
-		@media (min-width:768px){body{background-image: url(http://www.publicdomainpictures.net/pictures/150000/velka/sunset-sky-1455125487HWs.jpg);}}
-		@media (min-width:768px){.number{color:rgba(0,0,0,0.4)}}
+		@media (min-width:992px){body{background-image: url(http://www.publicdomainpictures.net/pictures/150000/velka/sunset-sky-1455125487HWs.jpg);}}
+		@media (min-width:992px){.number{color:rgba(0,0,0,0.4)}}
+		@media (max-width:991px){.cond,.cams{height:50%}}
+		@media (min-width:992px){.cond,.cams,.pc-table{height:320px}}
 	</style>
 </head>
 <body>
